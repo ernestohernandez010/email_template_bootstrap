@@ -1,9 +1,25 @@
-{}
+.col-3{background-color: #7D8491;}
 
-{}
+.col-4{background-color:#C0C5C1;}
 
-{}
+.col-5{background-color:#EAF0CE;}
 
-{}
+.chosen-card {
+    border:5px solid;
+}
 
-{}
+/*Ensure navbar links are not standard blue color */
+.nav-link,.navbar-brand{color:black;}
+
+/*Distinguish To and From fields in emails */
+.to-field,.from-field{color:gray;}
+
+.message-title{text-transform:bold;}
+
+.selected{color: orange;}
+
+.card-column{width:15rem;}
+
+
+
+
