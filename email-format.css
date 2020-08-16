@@ -1,24 +1,36 @@
-.col-3{background-color: #7D8491;}
+/*Ensure different colors for each column*/
+.col-2{background-color: #303036;}
 
 .col-4{background-color:#C0C5C1;}
 
-.col-5{background-color:#EAF0CE;}
+.col-6{background-color:#FFFAFF;}
 
+
+
+/*Add a more visbile border around card/email being viewed*/
 .chosen-card {
     border:5px solid;
 }
 
+
+
 /*Ensure navbar links are not standard blue color */
-.nav-link,.navbar-brand{color:black;}
+.nav-link,.navbar-brand{color:#FFFAFF;}
+
+
 
 /*Distinguish To and From fields in emails */
 .to-field,.from-field{color:gray;}
 
+
+
+/*Make message titles bold, easily readable*/
 .message-title{text-transform:bold;}
 
-.selected{color: orange;}
 
-.card-column{width:15rem;}
+
+/*Make chosen section colored orange*/
+.selected{color: orange;}
 
 
 

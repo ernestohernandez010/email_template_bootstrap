@@ -11,25 +11,30 @@
 </head>
 
 <title>
-    Bootstrap Grid Practice
+    BOOTSTRAP GRID EMAIL TEMPLATE
 </title>
 
     <body>
 
+
+        <!--NEED VARYING COL CLASSES FOR BETTER BETTER DISPLAYING OF CONTENT ON DIFFERENT SIZE SCREENS-->
         <div class="container-fluid">
             <div class="row">
 
-                <div class="col-3 min-vh-100 d-flex align-items-center align-self-stretch flex-fill ">
+                <div class="col-2 ">
                         
-                    <ul class="navbar-nav bigger-font">
+                    <ul class="navbar-nav min-vh-100 d-flex align-items-center align-self-stretch flex-fill ">
 
                         <a class="navbar-brand" href="#">
-                           <img src="/docs/4.5/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                           <img src="Pictures/pretzel.png" width="30" height="30" class="d-inline-block align-top" alt="">
                             Welcome, Person
                         </a>
 
                         <li>
-                            <button type ="button" class="btn btn-warning"> Compose</button>
+                            <button type ="button" class="btn btn-block btn-warning"> Compose</button>
+                            <br>
+                            <br>
+                            <br>
                         </li>
 
                         <li class="nav-item">
@@ -56,43 +61,44 @@
                     
                 </div>
             
+
                 <!--https://getbootstrap.com/docs/4.5/utilities/text/
-                https://getbootstrap.com/docs/4.5/components/card/
-
-                FOR PUSHING MESSAGES TO THE BOTTOM OF VIEWPORT
-                https://getbootstrap.com/docs/4.5/utilities/vertical-align/
-                -->
-
-                <div class="col-4 d-flex align-items-end">
-
-                    <div class = "card" style="width: 100vw">
+                https://getbootstrap.com/docs/4.5/components/card/-->
+                <div class="col-4">
+                    
+                    <!--NEED TO ADD DATE FIELD TO CARDS-->
+                    <div class = "card">
                         
-                        <div class="card text-left d-inline-block text-truncate border-dark order-3">
+                        <div class="card d-flex text-left d-inline-block text-truncate border-dark order-3">
                             <div class="card-body">
                                 <h6 class="card-title to-field">To:</h6>
                                 <h6 class="card-title from-field">From: </h6>
-                                <h4 class ="card-title message-title">EMAIL TITLE </h4>
-                                <p class="card-text"> 1 Example Text to show the card actually works WITH ALL THE OVERFLOW STUFFadfadfadfasdfadfadf</p>
+                                <h4 class="card-title message-title">EMAIL TITLE </h4>
+                                <p class="card-text"> 1 Example Text to show the card actually works WITH OVERFLOW STUFFadfadfadfasdfadfadf</p>
                             </div>
                         </div>
                       
-                    
-                        <div class="card text-left d-inline-block text-truncate order-2 border-success chosen-card">
+                        <!--NEED TO FIX DISPLAY OF THIS CARD, SET TO SAME HEIGHT AS OTHER 2 SMALLER MESSAGES-->
+                        <div class="card d-flex text-left d-inline-block text-truncate order-2 border-success chosen-card">
                             <div class="card-body">
-                                <h6 class="card-title to-field">To:</h6>
-                                <h6 class="card-title from-field">From: </h6>
-                                <h4 class ="card-title message-title">EMAIL TITLE </h4>
-                                <p class="card-text"> 2 Example Text to show the card actually works WITH ALL THE OVERFLOW STUFFadfadfadfasdfadfadf</p>
+                                <h6 class="card-title to-field">To: itisart@gmail.com</h6>
+                                <h6 class="card-title from-field">From: hrismyjob@gmail.com</h6>
+                                <h4 class="card-title message-title">Michael Scott Daily Quotes </h4>
+                                <p class="card-text">"Friends joke with one another, 'Hey, you're poor." Hey,your momma's dead.' That's what friends do."</p>
+                                <p class="card-text">"It's a good thing Russia doesn't exist anymore</p>
+                                <p class="card-text">"You cheated on me? When I specifically asked you not to?"</p>
+                                <p class="card-text">"It just seems awfully mean. But sometimes, the ends justify the mean."</p>
+                                <p class="card-text">"Reverse psychology is an awesome tool. I don't know if you guys know about it, but, bascially, you make someone think the opposite of what you believe, and that tricks them into doing something stupid. Works like a charm."</p>
                             </div>
                         </div>
                     
                     
-                        <div class="card text-left d-inline-block text-truncate border-dark order-1">
+                        <div class="card d-flex text-left d-inline-block text-truncate border-dark order-1">
                             <div class="card-body">
                                 <h6 class="card-title to-field">To:</h6>
                                 <h6 class="card-title from-field">From: </h6>
-                                <h4 class ="card-title message-title">EMAIL TITLE </h4>
-                                <p class="card-text"> 3 Example Text to show the card actually works WITH ALL THE OVERFLOW STUFFadfadfadfasdfadfadf</p>
+                                <h4 class="card-title message-title">EMAIL TITLE </h4>
+                                <p class="card-text"> 3 Example Text to show the card actually works WITH OVERFLOW STUFFadfadfadfasdfadfadf</p>
                             </div>
                         </div>
 
@@ -102,18 +108,20 @@
 
 
                 <!--IMPROVEMENT IN THIS SECTION DISPLAY A SINGLE CARD THAT IS SET AS SELECTED TO BE THE FULLY DISPLAYED MESSAGE-->
+                <div class="col-6">
 
-
-                <div class="col-5">
-
-                    
+                    <br>
                     <div class = "card">
-                        <div class="card text-left" style="width:100%;">
+                        <div class="card text-left">
                             <div class="card-body">
-                                <h6 class="card-title to-field">To:</h6>
-                                <h6 class="card-title from-field">From: </h6>
-                                <h4 class ="card-title message-title">EMAIL TITLE </h4>
-                                <p class="card-text"> 2 Example Text to show the card actually works WITH ALL THE OVERFLOW STUFFadfadfadfasdfadfadf</p>
+                                <h6 class="card-title to-field">To: itisart@gmail.com</h6>
+                                <h6 class="card-title from-field">From: hrismyjob@gmail.com</h6>
+                                <h4 class="card-title message-title">Michael Scott Daily Quotes </h4>
+                                <p class="card-text">"Friends joke with one another, 'Hey, you're poor." Hey,your momma's dead.' That's what friends do."</p>
+                                <p class="card-text">"It's a good thing Russia doesn't exist anymore</p>
+                                <p class="card-text">"You cheated on me? When I specifically asked you not to?"</p>
+                                <p class="card-text">"It just seems awfully mean. But sometimes, the ends justify the mean."</p>
+                                <p class="card-text">"Reverse psychology is an awesome tool. I don't know if you guys know about it, but, bascially, you make someone think the opposite of what you believe, and that tricks them into doing something stupid. Works like a charm."</p>
                             </div>
                         </div>
                     </div>
@@ -121,9 +129,15 @@
                     <br>
                     <br>
                     <br>
+                    
+                    <!--NEED THE QUICKK SHORTCUT BUTTONS/ICONS FOR REPLY, FORWARD, OTHER OPTIONS-->
+                    <textarea rows = "12" style="min-width: 100%">
 
-                    <textarea rows = "12" cols="36">
+                        
                     </textarea>
+                    <!--ADJUST POSITION OF BUTTONS TO INSIDE THE TEXTAREA-->
+                    <button type ="button" class="btn"><img src="Pictures/paperclip.png" width="20" height="32" ></button>
+                    <button type ="button" class="btn btn-warning">Reply</button>
                 </div>
 
 
